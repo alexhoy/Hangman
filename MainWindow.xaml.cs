@@ -146,6 +146,7 @@ namespace Hangman
             {
                 CheckGuess(Guess);
                 GuessedLetters.Add(Guess);
+                intNumberOfGuesses++;
 
             }
         }

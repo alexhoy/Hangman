@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hangman"
         mc:Ignorable="d"
-        Title="Hangman" Height="1440" Width="1080" TextInput="Window_TextInput">
-    <Grid>
+        Title="Hangman" Height="600" Width="800" TextInput="Window_TextInput" ResizeMode="CanMinimize">
+    <Grid Width="800" Height="600">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,2" StartPoint="0.7,0">
                 <GradientStop Color="Black" Offset="0"/>
                 <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label x:Name="lblWord" Content="WORD" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" RenderTransformOrigin="-0.314,0.408" FontSize="36" Padding="10,5,5,5" UseLayoutRounding="False"/>
+        <Label x:Name="lblWord" Content="WORD" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" RenderTransformOrigin="-0.314,0.408" FontSize="24" Padding="10,5,5,5" UseLayoutRounding="False"/>
 
 
     </Grid>
